@@ -1,0 +1,115 @@
+Dataset: Train=976, Val=173
+======================================================================
+
+Training enhanced_dlinear - seq_len=20, seed=42
+Epoch 10/100 - Train: 0.394596, Val: 3.802407
+Epoch 20/100 - Train: 0.286425, Val: 1.835831
+Epoch 30/100 - Train: 0.244496, Val: 1.499359
+Epoch 40/100 - Train: 0.218724, Val: 1.308542
+Epoch 50/100 - Train: 0.203166, Val: 1.219172
+Epoch 60/100 - Train: 0.192322, Val: 1.162733
+Epoch 70/100 - Train: 0.189227, Val: 1.132523
+Epoch 80/100 - Train: 0.185177, Val: 1.113986
+Epoch 90/100 - Train: 0.188316, Val: 1.098828
+Epoch 100/100 - Train: 0.184948, Val: 1.097520
+Best val loss: 1.097508
+
+Training enhanced_dlinear - seq_len=30, seed=42
+Epoch 10/100 - Train: 0.373460, Val: 3.450500
+Epoch 20/100 - Train: 0.266524, Val: 2.136866
+Epoch 30/100 - Train: 0.227109, Val: 2.393210
+Early stopping at epoch 36
+Best val loss: 2.022060
+
+Training enhanced_dlinear - seq_len=60, seed=42
+Epoch 10/100 - Train: 0.304339, Val: 1.455794
+Epoch 20/100 - Train: 0.212756, Val: 3.852768
+Epoch 30/100 - Train: 0.177291, Val: 4.263620
+Early stopping at epoch 30
+Best val loss: 1.455794
+
+Training enhanced_nlinear - seq_len=20, seed=42
+Epoch 10/100 - Train: 0.155694, Val: 0.240559
+Epoch 20/100 - Train: 0.148546, Val: 0.193704
+Epoch 30/100 - Train: 0.145053, Val: 0.174345
+Epoch 40/100 - Train: 0.143896, Val: 0.163433
+Epoch 50/100 - Train: 0.143519, Val: 0.156245
+Epoch 60/100 - Train: 0.142915, Val: 0.153108
+Epoch 70/100 - Train: 0.141608, Val: 0.151441
+Epoch 80/100 - Train: 0.142401, Val: 0.150525
+Epoch 90/100 - Train: 0.142801, Val: 0.150065
+Epoch 100/100 - Train: 0.141883, Val: 0.149993
+Best val loss: 0.149993
+
+Training enhanced_nlinear - seq_len=30, seed=42
+Epoch 10/100 - Train: 0.155628, Val: 0.213439
+Epoch 20/100 - Train: 0.149998, Val: 0.183895
+Epoch 30/100 - Train: 0.146363, Val: 0.174934
+Epoch 40/100 - Train: 0.146568, Val: 0.169137
+Epoch 50/100 - Train: 0.141304, Val: 0.163982
+Epoch 60/100 - Train: 0.141704, Val: 0.162735
+Epoch 70/100 - Train: 0.143547, Val: 0.160349
+Epoch 80/100 - Train: 0.141910, Val: 0.159820
+Epoch 90/100 - Train: 0.140611, Val: 0.159429
+Epoch 100/100 - Train: 0.140431, Val: 0.159391
+Best val loss: 0.159380
+
+Training enhanced_nlinear - seq_len=60, seed=42
+Epoch 10/100 - Train: 0.153019, Val: 0.160479
+Epoch 20/100 - Train: 0.148026, Val: 0.131156
+Epoch 30/100 - Train: 0.143210, Val: 0.125049
+Epoch 40/100 - Train: 0.141240, Val: 0.119956
+Epoch 50/100 - Train: 0.138199, Val: 0.120813
+Epoch 60/100 - Train: 0.136719, Val: 0.119504
+Epoch 70/100 - Train: 0.136164, Val: 0.121531
+Epoch 80/100 - Train: 0.136634, Val: 0.120428
+Early stopping at epoch 80
+Best val loss: 0.119504
+
+Training hybrid - seq_len=20, seed=42
+Epoch 10/100 - Train: 0.209778, Val: 1.169492
+Epoch 20/100 - Train: 0.149207, Val: 0.384075
+Epoch 30/100 - Train: 0.131553, Val: 0.361289
+Epoch 40/100 - Train: 0.122149, Val: 0.344497
+Epoch 50/100 - Train: 0.115074, Val: 0.333090
+Epoch 60/100 - Train: 0.111350, Val: 0.321281
+Epoch 70/100 - Train: 0.108197, Val: 0.307420
+Epoch 80/100 - Train: 0.107352, Val: 0.302929
+Epoch 90/100 - Train: 0.105656, Val: 0.299663
+Epoch 100/100 - Train: 0.107539, Val: 0.299144
+Best val loss: 0.299144
+
+Training hybrid - seq_len=30, seed=42
+Epoch 10/100 - Train: 0.208214, Val: 1.375068
+Epoch 20/100 - Train: 0.145190, Val: 0.553441
+Epoch 30/100 - Train: 0.123186, Val: 0.498970
+Epoch 40/100 - Train: 0.112329, Val: 0.416187
+Epoch 50/100 - Train: 0.108199, Val: 0.391927
+Epoch 60/100 - Train: 0.101960, Val: 0.381276
+Epoch 70/100 - Train: 0.100746, Val: 0.379632
+Epoch 80/100 - Train: 0.100793, Val: 0.377963
+Epoch 90/100 - Train: 0.097614, Val: 0.379196
+Epoch 100/100 - Train: 0.100112, Val: 0.379304
+Early stopping at epoch 100
+Best val loss: 0.377963
+
+Training hybrid - seq_len=60, seed=42
+Epoch 10/100 - Train: 0.160330, Val: 0.470435
+Epoch 20/100 - Train: 0.120371, Val: 0.369150
+Epoch 30/100 - Train: 0.104325, Val: 0.234190
+Epoch 40/100 - Train: 0.094111, Val: 0.134555
+Epoch 50/100 - Train: 0.088054, Val: 0.122410
+Epoch 60/100 - Train: 0.084319, Val: 0.132802
+Early stopping at epoch 68
+Best val loss: 0.120312
+
+Training Summary
+enhanced_dlinear     seq_len= 20 seed=  42 -> Val: 1.097508
+enhanced_dlinear     seq_len= 30 seed=  42 -> Val: 2.022060
+enhanced_dlinear     seq_len= 60 seed=  42 -> Val: 1.455794
+enhanced_nlinear     seq_len= 20 seed=  42 -> Val: 0.149993
+enhanced_nlinear     seq_len= 30 seed=  42 -> Val: 0.159380
+enhanced_nlinear     seq_len= 60 seed=  42 -> Val: 0.119504
+hybrid               seq_len= 20 seed=  42 -> Val: 0.299144
+hybrid               seq_len= 30 seed=  42 -> Val: 0.377963
+hybrid               seq_len= 60 seed=  42 -> Val: 0.120312
