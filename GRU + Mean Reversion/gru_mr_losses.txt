@@ -1,0 +1,49 @@
+
+[1] Loading data...
+    Last price: 120.11
+    365-day mean (target): 98.52
+
+[2] Preparing features...
+    Features: 44
+    Train: 919, Val: 230
+
+[3] Training GRU...
+    Parameters: 273,541
+
+[Training GRU]
+  Epochs: 100, LR: 0.001, Patience: 15
+
+  Epoch    Train Loss    Val Loss      Best Val    Patience
+  -------------------------------------------------------
+      1      0.110970    1.420099    1.420099        0
+     10      0.009098    0.468128    0.445953        2
+     20      0.006708    0.494835    0.445953       12
+  Early stopping at epoch 23
+
+  Best validation loss: 0.445953
+
+[4] Generating predictions...
+
+    GRU Predictions:
+      Day 1:   98.65
+      Day 50:  97.19
+      Day 100: 97.19
+      Mean:    97.24
+
+    Mean Reversion:
+      Day 1:   117.95
+      Day 50:  98.63
+      Day 100: 98.52
+      Mean:    100.46
+
+[5] Hybrid (50% GRU + 50% MR)...
+
+    Final Predictions:
+      Day 1:   118.50 (gap: 1.61)
+      Day 50:  98.57
+      Day 100: 98.38
+      Mean:    99.82
+      Target:  98.52
+      Gap to target: 1.30
+
+[6] Saving submission...
